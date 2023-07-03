@@ -1,0 +1,152 @@
+body {
+    border: 2px solid black;
+    margin: inherit;
+    padding: inherit;
+    background-color: rgb(229, 237, 241);
+    height: 1000px;
+    color: white;
+}
+
+.po {
+    float: left;
+}
+
+.upside {
+    float: left;
+    width: 15%;
+    padding: 20px 0px 0px 10px;
+    color: black;
+}
+
+
+
+.as {
+    float: right;
+}
+
+.head {
+    float: left;
+    padding-left: 140px;
+    font-size: 60px;
+    font: bold;
+    color: rgba(255, 0, 0, 0.892);
+    text-shadow: 2px 2px;
+
+}
+
+.heading {
+    height: 100px;
+    background-color: white;
+}
+
+.bg-color {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin: 0%;
+    height: 120px;
+    background-color: rgb(25, 159, 243);
+}
+
+.a {
+    border: 1px solid black;
+    padding: 2px 7px 2px 7px;
+    margin: 0px 5px 3px 5px;
+    width: 18%;
+    background-color: aliceblue;
+    color: rgb(25, 159, 243);
+    box-shadow: 3px 3px;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 4px;
+    padding-top: 0%;
+    /*  height: 5px; */
+    background-color: rgb(199, 191, 191);
+}
+
+@media screen and (max-width:900px) {
+    .box {
+        clear: both;
+    }
+}
+
+.another_box {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-auto-rows: minmax(500px, auto);
+
+}
+
+.b {
+    border: 0.1px solid black;
+    margin: 2px;
+    padding: 2px;
+    /* height: 50px; */
+    border-radius: 5px;
+}
+
+.another_box1 {
+    display: flex;
+    flex-direction: column;
+    color: rgba(0, 0, 255, 0.766);
+}
+
+.c {
+    font-size: 1em;
+    padding: 15px 3px 15px 3px;
+    border: 1px solid grey;
+}
+
+.innerbox {
+    background-color: rgba(0, 0, 255, 0.766);
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.another_box2 {
+    display: grid;
+    grid-template-rows: 1fr 8fr;
+}
+
+.paragraph {
+    background-color: rgba(0, 0, 255, 0.766);
+    font-size: 1em;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 0px 3px 0px 3px;
+    margin: 8px 3px 13px 2px;
+}
+
+.maininnerbox {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    font-weight: bold;
+    color: white;
+}
+
+.l {
+    background-color: rgba(0, 0, 255, 0.766);
+    text-align: center;
+    padding-top: 20PX;
+    margin: 6px;
+    border-radius: 3PX;
+}
+
+.insidebox5 {
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.insidebox23 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+
+}
