@@ -3,8 +3,22 @@ body {
     margin: inherit;
     padding: inherit;
     background-color: rgb(229, 237, 241);
-    height: 1000px;
+
     color: white;
+    position: absolute;
+
+    left: inherit;
+    right: inherit;
+    bottom: initial;
+
+
+    /* background-image: url(background.jpg);
+    background-repeat: no-repeat; */
+
+
+    width: initial;
+    padding: 0%;
+    border: 1px solid black;
 }
 
 .po {
