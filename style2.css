@@ -1,14 +1,15 @@
 body {
     border: 2px solid black;
     margin: inherit;
-    padding: inherit;
-    background-color: rgb(229, 237, 241);
+
+
+    background-color: rgba(229, 237, 241, 0.319);
 
     color: white;
     position: absolute;
-
-    left: inherit;
-    right: inherit;
+    /*   top: 10px;
+    left: 60px;
+    right: 60px; */
     bottom: initial;
 
 
@@ -16,16 +17,20 @@ body {
     background-repeat: no-repeat; */
 
 
-    width: initial;
+    width: inherit;
     padding: 0%;
     border: 1px solid black;
 }
 
+
+
 .po {
+    /* position: absolute; */
     float: left;
 }
 
 .upside {
+
     float: left;
     width: 15%;
     padding: 20px 0px 0px 10px;
@@ -35,16 +40,19 @@ body {
 
 
 .as {
+
     float: right;
 }
 
 .head {
-    float: left;
-    padding-left: 140px;
-    font-size: 60px;
+
+
+
+    padding-left: 100px;
+    font-size: 40px;
     font: bold;
     color: rgba(255, 0, 0, 0.892);
-    text-shadow: 2px 2px;
+    text-shadow: 2px 2px 3px;
 
 }
 
