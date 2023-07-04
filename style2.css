@@ -6,18 +6,18 @@ body {
     background-color: rgba(229, 237, 241, 0.319);
 
     color: white;
-    position: absolute;
+    position: inherit;
     /*   top: 10px;
     left: 60px;
     right: 60px; */
     bottom: initial;
 
-
+    width: 100%;
     /* background-image: url(background.jpg);
     background-repeat: no-repeat; */
 
 
-    width: inherit;
+
     padding: 0%;
     border: 1px solid black;
 }
@@ -25,7 +25,7 @@ body {
 
 
 .po {
-    /* position: absolute; */
+
     float: left;
 }
 
@@ -46,9 +46,11 @@ body {
 
 .head {
 
-
-
-    padding-left: 100px;
+    clear: none;
+    float: left;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 5px;
     font-size: 40px;
     font: bold;
     color: rgba(255, 0, 0, 0.892);
@@ -81,6 +83,7 @@ body {
 }
 
 .box {
+    clear: both;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -90,9 +93,35 @@ body {
     background-color: rgb(199, 191, 191);
 }
 
-@media screen and (max-width:900px) {
-    .box {
-        clear: both;
+@media screen and (max-width:980px) {
+    .head {
+        font-size: 30px;
+        /* width: 200px; */
+        /* 3vw */
+    }
+}
+
+@media screen and (max-width:790px) {
+    .head {
+
+        width: 200px;
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+
+    .upside {
+        width: 20%
+    }
+
+    .as {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width:1032px) {
+    body {
+        position: absolute;
+        width: inherit;
     }
 }
 
